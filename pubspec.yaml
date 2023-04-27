@@ -1,0 +1,15 @@
+name: stage_lints
+description: Lints for use in Stage Coding
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  analyzer: ^5.10.0
+  custom_lint_builder: ^0.3.4
+  source_gen: ^1.2.7
+
+dev_dependencies:
+  lints: ^2.0.1
