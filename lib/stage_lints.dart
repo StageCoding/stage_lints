@@ -41,10 +41,6 @@ class RepositoryAndServicesLintRule extends DartLintRule {
 
       final isRepository = isRepositoryOrService(node);
 
-      if (isRepository) {
-        reporter.reportErrorForNode(code, node);
-      }
-
       if (isRepository &&
           children
               .sublist(0, children.indexOf(node))
