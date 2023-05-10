@@ -9,7 +9,7 @@ Lints used in Stage Coding, mostly for GetX architecture.
 ```
   custom_lint: ^0.3.4
   stage_lints:
-    path: ../stage_lints
+    path: stage_lints
 ```
 4. Add this to the bottom of `analysis_options.yaml` file in the project
 ```
